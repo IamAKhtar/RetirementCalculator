@@ -298,7 +298,7 @@ export default function Home() {
     }
   ];
 
-  <DonationBox isTest={true} />
+  
   return (
     <main 
       style={{ 
@@ -906,6 +906,7 @@ export default function Home() {
             </div>
           ))}
         </section>
+		<DonationBox isTest={true} />
       </div>
     </main>
   );
