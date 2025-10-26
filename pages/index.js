@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import DonationBox from "../components/DonationBox";
 
 const initialInputs = {
   currentAge: 35,
@@ -297,6 +298,7 @@ export default function Home() {
     }
   ];
 
+  <DonationBox isTest={true} />
   return (
     <main 
       style={{ 
